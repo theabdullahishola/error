@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    max-height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Manrope:wght@400;500&display=swap');
+
+body {
+    background: #D0D0D0;
+    background-image: url('/Background\ .svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+.container{
+    position: absolute;
+        width: 955px;
+        height: 370px;
+        left: 297px;
+        top: 314px;
+}
+#four{
+        position: absolute;
+        width: 195.22px;
+        height: 110px;
+        left: 314.36px;
+        top: 30px;
+    
+        font-family: 'DM Sans',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 110px;
+        color: #3C627E;
+}
+#middle{
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        position: absolute;
+        width: 569px;
+        height: 122px;
+        left: 314px;
+        top: 156px;
+}
+#access{
+    width: 342px;
+        height: 46px;
+        font-family: 'DM Sans',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        color: #1F1F1F;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+#you{
+    width: 569px;
+        height: 60px;
+        font-family: 'Manrope',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #1F1F1F;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+button{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px 10px 24px;
+        gap: 10px;
+        position: absolute;
+        width: 199.23px;
+        height: 56px;
+        left: 314.36px;
+        top: 318px;
+        background: #FFA657;
+}
+a{
+    text-decoration: none;
+    width: 120px;
+        height: 24px;
+        font-family: 'Manrope',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #1F1F1F;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        white-space: nowrap;
+}
+#section1{
+position: absolute;
+    width: 226.26px;
+    height: 226px;
+    left: 0px;
+    top: 0px;
+}
+
+#img1{
+position: absolute;
+    width: 199.61px;
+    height: 151.76px;
+    left: 16px;
+    top: 35px;
+    z-index: 9;
+}
+#ellipse{
+position: absolute;
+    width: 226.26px;
+    height: 226px;
+    left: 0px;
+    top: 0px;
+    
+}

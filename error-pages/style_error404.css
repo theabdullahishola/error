@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body,
+html {
+    max-height: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Manrope:wght@400;500&display=swap');
+
+body {
+    background: #D0D0D0;
+    background-image: url('/Background\ .svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+ #four{
+    /* position: absolute; */
+        width: 195px;
+        height: 110px;
+        /* left: 681px;
+        top: 357px; */
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 100px;
+        line-height: 110px;
+        color: #3C627E;
+} 
+#section2{
+    position: relative;
+        width: 391px;
+        height: 294px;
+        left: 681px;
+        top: 357px;
+}
+#middle{
+        width: 391px;
+        height: 72px;
+}
+#look{
+        width: 284px;
+        height: 34px;
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 34px;
+        color: #1F1F1F;
+        white-space: nowrap;
+}
+#the{
+        width: 391px;
+        height: 30px;
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #1F1F1F;
+}
+#btn{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px 10px 24px;
+        gap: 10px;
+        width: 199px;
+        height: 56px;
+        background: #FFB37C;
+        border-radius: 8px;
+}
+#section1{
+    position: absolute;
+        width: 226px;
+        height: 226px;
+        left: 367px;
+        top: 327px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #1F1F1F;
+        flex: none;
+        order: 0;
+        flex-grow: 0
+}
+#arrow{
+    width: 12px;
+        height: 10.5px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
